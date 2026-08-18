@@ -124,6 +124,9 @@ section a:hover{
 
 .cadastro-senha {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    gap: 20px;
+}
+
+.cadastro-senha input{
+    width: 100%;
 }
