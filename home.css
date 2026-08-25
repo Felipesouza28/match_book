@@ -68,3 +68,14 @@ p{
 .btn{
     padding: 15px 30px;
 }
+
+.area-add-sub{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.area-add-sub button{
+    padding: 10px;
+    
+}
