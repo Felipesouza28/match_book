@@ -79,3 +79,18 @@ p{
     padding: 10px;
     
 }
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    width: 50%;
+    background-color: rgb(220, 241, 245);
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
