@@ -22,10 +22,10 @@
             <form action="#" id="form-login">
 
                 <label for="nome">Nome:</label>
-                <input type="text" id="nome" placeholder="Digite seu nome:">
+                <input type="text" id="nome" placeholder="Digite seu nome:" required>
 
                 <label for="email">Email:</label>
-                <input type="email" id="senha" placeholder="Digite seu email:">
+                <input type="email" id="email" placeholder="Digite seu email:" required>
 
                 <label for="usuario">Usuário</label>
                 <input type="text" id="usuario" placeholder="Digite um nome de usuario:">
@@ -33,24 +33,25 @@
                 <div class="cadastro-senha">
                     <div>
                         <label for="senha">Senha:</label>
-                        <input type="password" id="senha" placeholder="Digite sua senha:">
+                        <input type="password" id="senha" placeholder="Digite sua senha:" required>
                     </div>
                     
                     <div>
                         <label for="confirmar-senha">Confirme sua senha:</label>
-                        <input type="text" id="confirmar-senha" placeholder="Repita sua senha:">
+                        <input type="text" id="confirmar-senha" placeholder="Repita sua senha:" required>
                     </div>
                 
                 </div>
-                
-                abreviando uma tag
 
-                <button id="btn-acessar"> Acessar </button>
+                <p id="msg-erro"></p>
+            
+                <button id="btn-cadastrar" type="button"> Acessar </button>
 
             </form>
         </section>
     </main>
 
+        <script src="praticandojs/cadastro.js"></script>
 </body>
 </html>
 
